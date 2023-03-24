@@ -1,0 +1,12 @@
+点击github 头像的profile 下面的 your repository ；然后点击new 按键； 
+
+
+
+
+git init : 初始化仓库；
+git add . 添加全部文件道仓库里；
+git commit -m 'all' 上传全部文件道远程仓库；
+git remote add origin : 链接本地文件道远程仓库命令； github 创建的repository 里的 https | ssh 里的文件 url 复制，粘贴就可以了；
+git remote add origin https://github.com/baisula001/first-project.git   目前还没有上传道远程仓库；还在缓存区；
+git push -u origin master : 这个命令以后才会推到  远程仓库； 然后刷新 github 仓库页面就可以看到你的  上传文件； 过程中需要登录github ；
+之后才能成功；
